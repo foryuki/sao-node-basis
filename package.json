@@ -1,0 +1,26 @@
+{
+  "name": "sao-cloud",
+  "version": "0.0.0",
+  "description": "my awesome SAO generator",
+  "repository": {
+    "url": "foryuki/sao-cloud",
+    "type": "git"
+  },
+  "author": "foryuki <foryuki@outlook.com> (github.com/foryuki)",
+  "license": "MIT",
+  "files": [
+    "saofile.js",
+    "template"
+  ],
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "install": "^0.12.2",
+    "superb": "^1.3.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "sao": "^1.0.0"
+  }
+}
