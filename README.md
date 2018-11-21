@@ -2,6 +2,8 @@
 
 > my awesome SAO generator
 
+[![CircleCI](https://circleci.com/gh/foryuki/template-parcel-ts.svg?style=svg)](https://circleci.com/gh/foryuki/template-parcel-ts)
+
 ## Usage
 
 Install [SAO](https://github.com/saojs/sao) first.
