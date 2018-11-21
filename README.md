@@ -2,7 +2,7 @@
 
 > my awesome SAO generator
 
-[![CircleCI](https://circleci.com/gh/foryuki/template-parcel-ts.svg?style=svg)](https://circleci.com/gh/foryuki/template-parcel-ts)
+[![CircleCI](https://circleci.com/gh/foryuki/sao-node-basis.svg?style=svg)](https://circleci.com/gh/foryuki/sao-node-basis)
 
 ## Usage
 
