@@ -15,10 +15,9 @@ test('defaults', async t => {
 
   t.snapshot(stream.fileList, 'Generated files')
 
-  const pkg = stream.readFile('package.json')
-  // t.is(pkg.name, 'cloud')
-  // t.is(pkg.username, 'username')
-  // t.is(pkg.email, 'placholder@mymail.com')
+  const pkg = JSON.parse(await stream.readFile('package.json'))
+  t.is(pkg.name, 'cloud')
+  t.is(pkg.author, 'username <placholder@mymail.com>')
 
   t.snapshot(await stream.readFile('readme.md'), 'readme.md')
   t.snapshot(await stream.readFile('.editorconfig'), '.editorconfig')
