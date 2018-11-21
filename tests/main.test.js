@@ -19,7 +19,7 @@ describe('test', () => {
     expect(pkg.name).toBe('cloud')
     expect(pkg.author).toBe('username <placholder@mymail.com>')
 
-    expect(await stream.readFile('readme.md')).toMatchSnapshot('readme.md')
+    expect(await stream.readFile('README.md')).toMatchSnapshot('README.md')
     expect(await stream.readFile('.editorconfig')).toMatchSnapshot('.editorconfig')
   })
 })

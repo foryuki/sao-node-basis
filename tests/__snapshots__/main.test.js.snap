@@ -28,7 +28,7 @@ Array [
 ]
 `;
 
-exports[`test defaults: readme.md 1`] = `
+exports[`test defaults: README.md 1`] = `
 "# cloud
 
 ## License
