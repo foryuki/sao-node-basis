@@ -1,4 +1,4 @@
-# sao-cloud
+# sao-node-basis
 
 > my awesome SAO generator
 
@@ -12,16 +12,11 @@ yarn global add sao
 npm i -g sao
 ```
 
-### From npm
-
-```bash
-sao cloud my-project
-```
-
 ### From git
 
 ```bash
-sao foryuki/sao-cloud my-project
+cd my-project
+sao foryuki/sao-node-basis --update
 ```
 
 ## License

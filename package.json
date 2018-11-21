@@ -1,9 +1,9 @@
 {
-  "name": "node-basis",
+  "name": "sao-node-basis",
   "version": "0.0.0",
   "description": "my awesome SAO generator",
   "repository": {
-    "url": "foryuki/sao-cloud",
+    "url": "foryuki/sao-node-basis",
     "type": "git"
   },
   "author": "foryuki <foryuki@outlook.com> (github.com/foryuki)",
