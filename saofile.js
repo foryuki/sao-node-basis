@@ -26,14 +26,6 @@ module.exports = {
         message: 'What is your email?',
         default: this.gitUser.email,
         store: true
-      },
-      {
-        name: 'website',
-        message: 'The URL of your website',
-        default({ username }) {
-          return `github.com/${username}`
-        },
-        store: true
       }
     ]
   },

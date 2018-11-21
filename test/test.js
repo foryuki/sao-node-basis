@@ -20,6 +20,6 @@ test('defaults', async t => {
   // t.is(pkg.username, 'username')
   // t.is(pkg.email, 'placholder@mymail.com')
 
-  t.snapshot(stream.readFile('readme.md'), 'readme.md')
-  t.snapshot(stream.readFile('.editorconfig'), '.editorconfig')
+  t.snapshot(await stream.readFile('readme.md'), 'readme.md')
+  t.snapshot(await stream.readFile('.editorconfig'), '.editorconfig')
 })
