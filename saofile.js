@@ -42,8 +42,6 @@ module.exports = {
     }
   ],
   async completed() {
-    this.gitInit()
-    await this.npmInstall()
     this.showProjectTips()
   }
 }
