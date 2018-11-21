@@ -1,5 +1,3 @@
-const superb = require('superb')
-
 module.exports = {
   prompts() {
     return [
@@ -12,7 +10,7 @@ module.exports = {
       {
         name: 'description',
         message: 'How would you descripe the new project',
-        default: `my ${superb()} project`
+        default: ''
       },
       {
         name: 'username',
@@ -37,11 +35,14 @@ module.exports = {
     {
       type: 'move',
       patterns: {
-        gitignore: '.gitignore'
+        gitignore: '.gitignore',
+        '_package.json': 'package.json'
       }
     }
   ],
   async completed() {
+    this.gitInit()
+    await this.npmInstall()
     this.showProjectTips()
   }
 }
