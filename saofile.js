@@ -24,6 +24,18 @@ module.exports = {
         message: 'What is your email?',
         default: this.gitUser.email,
         store: true
+      },
+      {
+        type: 'confirm',
+        name: 'gitInit',
+        message: 'Should git init local repo',
+        default: true
+      },
+      {
+        type: 'confirm',
+        name: 'npmInstall',
+        message: 'Should use npm to install packages',
+        default: false
       }
     ]
   },
@@ -41,8 +53,12 @@ module.exports = {
     }
   ],
   async completed() {
-    this.gitInit()
-    await this.npmInstall()
+    if (this._answers.gitInit) {
+      this.gitInit()
+    }
+    if (this._answers.npmInstall) {
+      await this.npmInstall()
+    }
     this.showProjectTips()
   }
 }
