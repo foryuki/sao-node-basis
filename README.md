@@ -1,8 +1,8 @@
-# sao-node-basis
+# template-node-basis
 
-> my awesome SAO generator
+> my SAO generator for basic node project
 
-[![CircleCI](https://circleci.com/gh/foryuki/sao-node-basis.svg?style=svg)](https://circleci.com/gh/foryuki/sao-node-basis)
+[![CircleCI](https://circleci.com/gh/foryuki/template-node-basis.svg?style=svg)](https://circleci.com/gh/foryuki/template-node-basis)
 
 ## Usage
 
@@ -18,7 +18,7 @@ npm i -g sao
 
 ```bash
 cd my-project
-sao foryuki/sao-node-basis --update
+sao foryuki/template-node-basis --update
 ```
 
 ## License
